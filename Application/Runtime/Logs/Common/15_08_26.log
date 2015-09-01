@@ -1,0 +1,24 @@
+[ 2015-08-26T00:00:28+08:00 ] 127.0.0.1 /mb/fonts/ptsans/ptsans.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-26T00:00:28+08:00 ] 127.0.0.1 /mb/fonts/ptsans/ptsans-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-26T00:11:02+08:00 ] 127.0.0.1 /mb/vendor/modules/ngImgCrop/ng-img-crop.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-26T00:11:02+08:00 ] 127.0.0.1 /mb/vendor/modules/ngImgCrop/ng-img-crop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Mb
+

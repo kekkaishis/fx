@@ -1,0 +1,13 @@
+[ 2015-08-25T21:56:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.133689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.134770s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\fx\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001811s ]
+

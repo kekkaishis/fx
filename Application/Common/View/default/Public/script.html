@@ -1,0 +1,17 @@
+<script>
+$(function(){
+	$('.menu-list').on('click',function(){
+		if($(this).hasClass('active')){
+			$(this).removeClass('active');
+		}else{
+			$('.menu-list').removeClass('active');
+			$(this).addClass('active');
+		}
+		
+	});
+	
+	$('#user-list').on('click',function(){
+		$('#user-list-ul').toggle('normal');
+	});
+});
+</script>

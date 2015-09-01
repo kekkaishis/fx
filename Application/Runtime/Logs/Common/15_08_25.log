@@ -1,0 +1,78 @@
+[ 2015-08-25T21:56:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-25T22:41:34+08:00 ] 127.0.0.1 /mb/fonts/ptsans/ptsans.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:41:34+08:00 ] 127.0.0.1 /mb/fonts/ptsans/ptsans-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:44:42+08:00 ] 127.0.0.1 /mb/views/ui/angular-strap/popover.tpl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:44:46+08:00 ] 127.0.0.1 /mb/vendor/modules/ngImgCrop/ng-img-crop.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:44:46+08:00 ] 127.0.0.1 /mb/vendor/modules/ngImgCrop/ng-img-crop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:58:11+08:00 ] 127.0.0.1 /mb/views/ui/angular-strap/popover.tpl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:58:22+08:00 ] 127.0.0.1 /mb/views/ui/angular-strap/modal.tpl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:58:22+08:00 ] 127.0.0.1 /mb/views/ui/angular-strap/modal.tpl.content.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:58:44+08:00 ] 127.0.0.1 /mb/views/ui/angular-strap/modal.tpl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T22:58:44+08:00 ] 127.0.0.1 /mb/views/ui/angular-strap/modal.tpl.content.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T23:00:16+08:00 ] 127.0.0.1 /mb/vendor/modules/ngImgCrop/ng-img-crop.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Mb
+
+[ 2015-08-25T23:00:16+08:00 ] 127.0.0.1 /mb/vendor/modules/angular-file-upload/angular-file-upload.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载模块:Mb
+

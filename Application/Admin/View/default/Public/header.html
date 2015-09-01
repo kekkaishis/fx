@@ -1,0 +1,87 @@
+		<header id="header" class="app-header navbar bg-primary" role="menu">
+			<!-- navbar header -->
+			<div class="navbar-header ng-scope box-shadow-inset dk">
+				<button class="pull-right visible-xs">
+					<i class="ti-settings"></i>
+				</button>
+				<button class="pull-right visible-xs">
+					<i class="ti-menu"></i>
+				</button>
+				<!-- brand -->
+				<a class="navbar-brand text-lt ng-scope">
+					<i class="pull-right ti-arrow-circle-down text-sm m-v-xs m-l-xs"></i>
+					<i class="glyphicon glyphicon-th-large text-md"></i> 
+					<img src="__IMG__/logo.png" alt="." class="hide"> 
+					<span class="hidden-folded m-l-xs ng-binding">
+						{$Think.lang.SYSTEM_NAME}<sup class="text-xs font-thin ng-binding">{$Think.lang.SYSTEM_VERSION}</sup>
+					</span>
+				</a>
+				<!-- / brand -->
+			</div>
+			<!-- / navbar header -->
+
+			<!-- navbar collapse -->
+			<div class="navbar-collapse hidden-xs ng-scope">
+				<!-- nav -->
+				<ul class="nav navbar-nav navbar-left">
+					<li><a class="ng-scope" href="{:U('index/index')}">首页</a></li>
+					<li><a class="ng-scope" href="{:U('system/index')}">系统</a></li>
+					<li><a class="ng-scope" href="{:U('user/index')}">用户</a></li>
+					<li><a class="ng-scope" href="{:U('share/index')}">分销</a></li>
+				</ul>
+				<!-- / nav -->
+
+				<!-- nabar right -->
+				<ul class="nav navbar-nav navbar-right m-r-n">
+					<li>
+						<a href="" class="ng-scope"> 
+							<i class="glyphicon glyphicon-trash" style="font-size:12px;top: 2px;"></i>
+							 <span>{$Think.lang.ADMIN_EMPTY_CACHE}</span>
+						</a>
+					</li>
+					<li>
+						<a href="" class="ng-scope"> 
+							<i class="glyphicon glyphicon-check" style="top: 2px;"></i> 
+							<span>{$Think.lang.ADMIN_OPEN_HOME}</span>
+						</a>
+					</li>
+					<li>
+						<a class="clear no-padding-h ng-scope" id="user-list" > 
+							<img src="__IMG__/a0.jpg" class="navbar-img pull-right">
+							<span class="hidden-sm m-l">admin</span> 
+							<b class="caret m-h-xs hidden-sm"></b>
+						</a>
+						
+						<ul id="user-list-ul" class="dropdown-menu pull-right no-b-t ng-scope bottom-left am-collapse"  style="top: 48px; left: 0px; display: none; visibility: visible;">
+			                <li>
+			                  <a ui-sref="page.settings" href="#/page/settings">{$Think.lang.USER_SAVE_INFO}</a>
+			                </li>
+			                <li>
+			                  <a ui-sref="signin" href="#/signin">{$Think.lang.USER_LOGOUT}</a>
+			                </li>
+		              	</ul>
+		              	
+					</li>
+				</ul>
+				<!-- / navbar right -->
+
+				<!-- search form -->
+				<form class="navbar-form navbar-form-sm navbar-right visible-xs ng-pristine ng-valid" role="search">
+					<div class="form-group">
+						<div class="input-group">
+							<span class="input-group-btn">
+								<button type="submit"
+									class="btn btn-sm no-bg btn-icon no-shadow no-padder">
+									<i class="ti-search"></i>
+								</button>
+							</span> 
+							<input type="text"
+								class="form-control input-sm no-bg no-border ng-pristine ng-valid"
+								placeholder="Search...">
+						</div>
+					</div>
+				</form>
+				<!-- / search form -->
+			</div>
+			<!-- / navbar collapse -->
+		</header>

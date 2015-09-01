@@ -1,0 +1,65 @@
+<extend name="Public/base" />
+<block name="content">
+<div class="panel panel-default">
+	<div class="panel-heading">{$Think.lang.USER_AUTH_GROUP}</div>
+	<div class="panel-body">
+		<button type="button" ng-click="addRandomItem(row)"
+			class="btn btn-sm btn-success">
+			<i class="glyphicon glyphicon-plus"> </i> {$Think.lang.COMMON_ADD}
+		</button>
+	</div>
+	<table class="table table-striped table-bordered table-hover">
+		<thead>
+			<tr>
+				<th class="">first name</th>
+				<th class="">last name</th>
+				<th class="">birth date</th>
+				<th class="st-sort-descent">balance</th>
+				<th width="250">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- ngRepeat: row in displayedCollection -->
+			<tr class="ng-scope">
+				<td class="ng-binding">Olivier</td>
+				<td class="ng-binding">Renard</td>
+				<td class="ng-binding">"1987-04-25T00:00:00.000Z"</td>
+				<td class="ng-binding">785</td>
+				<td>
+					<button type="button" ng-click="removeItem(row)"
+						class="btn btn-xs btn-default">
+						<i class="fa fa-times"></i>
+					</button>
+				</td>
+			</tr>
+			<!-- end ngRepeat: row in displayedCollection -->
+			<tr class="ng-scope">
+				<td class="ng-binding">Olivier</td>
+				<td class="ng-binding">Frere</td>
+				<td class="ng-binding">"1987-04-25T00:00:00.000Z"</td>
+				<td class="ng-binding">133</td>
+				<td>
+					<button type="button" ng-click="removeItem(row)"
+						class="btn btn-xs btn-default">
+						<i class="fa fa-times"></i>
+					</button>
+				</td>
+			</tr>
+			<!-- end ngRepeat: row in displayedCollection -->
+			<tr class="ng-scope">
+				<td class="ng-binding">Laurent</td>
+				<td class="ng-binding">Frere</td>
+				<td class="ng-binding">"1987-05-21T00:00:00.000Z"</td>
+				<td class="ng-binding">70</td>
+				<td>
+					<button type="button" ng-click="removeItem(row)"
+						class="btn btn-xs btn-default">
+						<i class="fa fa-times"></i>
+					</button>
+				</td>
+			</tr>
+			<!-- end ngRepeat: row in displayedCollection -->
+		</tbody>
+	</table>
+</div>
+</block>
