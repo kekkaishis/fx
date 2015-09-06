@@ -134,7 +134,13 @@
 		</div>
 	</div>
 </aside>
+		<div id="content" class="app-content ng-scope">
+		<div class="ng-scope">
+		<div class="p-md ng-scope">
 		
+		</div>
+		</div>
+		</div>
 	</div>
 	<script src="http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
